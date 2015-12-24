@@ -13,6 +13,7 @@ require(dplyr)
 require(ggplot2)
 require(gridExtra)
 require(scales)
+require(knitr)
 ```
 
 ```{r, echo=FALSE, error=FALSE, warning=FALSE, message=FALSE}
@@ -150,3 +151,5 @@ mode.vs.score.plot
 mode.vs.normal.line
 mode.vs.transfer.line
 ```
+
+pandoc('LAVA_Hackathon_2015.md', format='html')
