@@ -152,4 +152,6 @@ mode.vs.normal.line
 mode.vs.transfer.line
 ```
 
+```{r, echo=FALSE}
 pandoc('LAVA_Hackathon_2015.md', format='html')
+```
