@@ -5,6 +5,7 @@ output:
     keep_md: yes
   pdf_document: default
 ---
+
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, error=FALSE}
 #Load dependencies
 require(plyr)
@@ -16,9 +17,9 @@ require(scales)
 
 ```{r, echo=FALSE, error=FALSE, warning=FALSE, message=FALSE}
 #Original data
-event.data <- read.csv("C:/Users/Jeffrey/Desktop/Jeffrey/UBC Clubs/CASE COMP/LAVA Hackathon 2015/Physics Simulation - Ido Roll/_Data Team_/Transformed or Formatted Data/Data01.csv")
+event.data <- read.csv("C:/Users/Jeffrey/Desktop/Jeffrey/CASE COMPS/LAVA Hackathon 2015/Physics Simulation - Ido Roll/_Data Team_/Transformed or Formatted Data/Data01.csv")
 
-test.data <- read.csv("C:/Users/Jeffrey/Desktop/Jeffrey/UBC Clubs/CASE COMP/LAVA Hackathon 2015/Physics Simulation - Ido Roll/_Data Team_/Transformed or Formatted Data/test.data.csv")
+test.data <- read.csv("C:/Users/Jeffrey/Desktop/Jeffrey/CASE COMPS/LAVA Hackathon 2015/Physics Simulation - Ido Roll/_Data Team_/Transformed or Formatted Data/test.data.csv")
 
 #Check # students in events.data to match test.data
 NumberOfStudents <- event.data %>%
